@@ -143,6 +143,7 @@ These can be visualized using **Praat** to inspect word and phoneme boundaries.
 | `data_preparation.py` | Script to normalize and prepare corpus |
 | `combined_trained.dict` | Final pronunciation dictionary |
 | `aligned_output/` | Generated TextGrid alignment files |
+| `aligned_output_pretrained/` | Generated output without training a custom g2p model |
 | `oov_words/oovs_found_english_us_arpa.txt` | List of out-of-vocabulary words |
 | `oov_generated_trained.dict` | Pronunciations generated using G2P |
 | `README.md` | Setup and usage instructions |
