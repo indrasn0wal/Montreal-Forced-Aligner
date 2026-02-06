@@ -350,10 +350,10 @@ item []:
             text = "association" 
         intervals [85]:
             xmin = 27.559999 
-            xmax = 27.65 
+            xmax = 27.66 
             text = "" 
         intervals [86]:
-            xmin = 27.65 
+            xmin = 27.66 
             xmax = 27.950001 
             text = "not" 
         intervals [87]:
@@ -1284,10 +1284,10 @@ item []:
             text = "F" 
         intervals [222]:
             xmin = 16.66 
-            xmax = 16.870001 
+            xmax = 16.879999 
             text = "AY1" 
         intervals [223]:
-            xmin = 16.870001 
+            xmin = 16.879999 
             xmax = 16.93 
             text = "V" 
         intervals [224]:
@@ -1816,10 +1816,10 @@ item []:
             text = "N" 
         intervals [355]:
             xmin = 27.559999 
-            xmax = 27.65 
+            xmax = 27.66 
             text = "" 
         intervals [356]:
-            xmin = 27.65 
+            xmin = 27.66 
             xmax = 27.799999 
             text = "N" 
         intervals [357]:

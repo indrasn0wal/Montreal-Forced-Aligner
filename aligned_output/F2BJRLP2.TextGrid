@@ -516,12 +516,12 @@ item []:
             text = "L" 
         intervals [42]:
             xmin = 2.72 
-            xmax = 2.79 
+            xmax = 2.78 
             text = "D" 
         intervals [43]:
-            xmin = 2.79 
+            xmin = 2.78 
             xmax = 2.84 
-            text = "UW1" 
+            text = "AH0" 
         intervals [44]:
             xmin = 2.84 
             xmax = 2.95 

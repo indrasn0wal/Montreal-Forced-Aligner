@@ -9,7 +9,7 @@ Forced alignment is the process of automatically matching an audio recording wit
 ## 📂 Dataset Preparation
 
 ### Step 1: Data Organization
-Using the script **`data_preparation.py`**, the dataset was organized into the MFA-compatible format.
+Using the python script **`data_preparation.py`**, the dataset was organized into the MFA-compatible format.
 
 - Normalized transcript file extensions (`.TXT` → `.txt`)
 - Placed all `.wav` and `.txt` pairs into a single directory:  

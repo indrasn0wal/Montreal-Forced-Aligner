@@ -3,7 +3,7 @@ import shutil
 
 # --- Configuration ---
 WAV_DIR = "wav"
-TRANSCRIPT_DIR = "transcripts"
+TRANSCRIPT_DIRC = "transcripts"
 OUTPUT_DIR = "mfa_corpus"
 # ---------------------
 
@@ -21,10 +21,10 @@ for wav_file in os.listdir(WAV_DIR):
         shutil.copy(source_path, target_path)
 
 # 2. Copy transcript files and normalize to .txt extension
-for transcript_file in os.listdir(TRANSCRIPT_DIR):
+for transcript_file in os.listdir(TRANSCRIPT_DIRC):
     if transcript_file.lower().endswith(".txt"):
         base_name = os.path.splitext(transcript_file)[0]
-        source_path = os.path.join(TRANSCRIPT_DIR, transcript_file)
+        source_path = os.path.join(TRANSCRIPT_DIRC, transcript_file)
         target_path = os.path.join(target_speaker_dir, f"{base_name}.txt")
         shutil.copy(source_path, target_path)
 
